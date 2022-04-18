@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Biodata Diri</title>
+    </head>
+    <body>
+        <style>
+            article{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                color: black;
+            }
+            * {box-sizing: border-box}
+            .skills {
+                 text-align: right;
+                 padding-top: 10px;
+                 padding-bottom: 10px;
+                color: white;
+            }
+            .JAVA {width: 60%; background-color: #457b9d;}
+            .HTML {width: 50%; background-color: #2a9d8f;}
+            .CSS {width: 50%; background-color: #e9c46a;}
+            .C {width: 5%; background-color: yellow;}
+
+            body{
+                /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_2YPZ2b3CJpjrUH3l5Afjgk4a_ysCSiyPg&usqp=CAU); */
+                /* background-image: linear-gradient(to right, red , yellow); */
+                background-image: url(data:image/jpeg;base64,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);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                height: 100%;
+                }  
+        </style>
+
+        <script>alert("Halo Pak Bima😊😊")</script>
+    
+        <hr />
+        <header style="text-align: center;">
+            <img src="https://drive.google.com/uc?id=1Y2L69MJGTzwKT1_O_5EKCCSd56Q8jTql" width="200" height="200" style="border-radius: 50%;"/>
+            <h1>Ryfaathir Rahman</h1>
+            <p>(Beginner Web Developer)</p>
+        </header>
+        <hr />
+    
+            <marquee><h1 align="center">BIODATA DIRI</h1></marquee>
+            <table width="1400" border="0" cellspacing="0" cellpadding="3" align="center">   
+                <tr align="center" bgcolor="#66CC33">
+                    <td width="174" align="left"><b>BIODATA DIRI</b></td>
+                    <td width="300" align="left"><b>KETERANGAN</b></td>
+                </tr>
+                <tr>
+                    <td>NAMA :</td>
+                    <td align="left">RYFAATHIR RAHMAN</td>
+                </tr>
+                <tr>
+                    <td>JURUSAN :</td>
+                    <td align="left">REKAYASA PERANGKAT LUNAK</td>
+                </tr>
+                <tr>
+                    <td>KELAS :</td>
+                    <td align="left">X</td>
+                </tr>
+                <tr>
+                    <td>JENIS KELAMIN :</td>
+                    <td align="left">LAKI-LAKI</td>
+                </tr>
+                <tr>
+                    <td>TEMPAT/TANGGAL LAHIR :</td>
+                    <td align="left">MALANG, 15 FEBRUARI 2006</td>
+                </tr>
+                <tr>
+                    <td>ALAMAT :</td>
+                    <td align="left">Jl.PELB BAKAHUNI</td>
+                </tr>
+                <tr>
+                    <td>PEKERJAAN :</td>
+                    <td align="left">SISWA</td>
+                </tr>
+                <tr>
+                    <td>HOBI :</td>
+                    <td align="left">BERSEPEDA</td>
+                </tr>
+            </table>
+            
+                <div class="des"> <h1 align="center">DESKRIPSI</h1></div>
+            <table width="1300" border="0" cellspacing="0" cellpadding="3" align="center">
+                <tr align="center">
+                    <td>
+                        <article style="text-align: center"; >
+                            <p>
+                                Hai,,Saya Ryfaathir Rahman, Saya Lahir Di Kota Malang Pada 15 Februari 2006.
+                                Sekarang Aku Berumur 16 Tahun. Aku Bersekolah Di SMKN 11 Malang 
+                                Dan Aku Mengambil Jurusan Rekayasa Perangkat Lunak(RPL). 
+                                Aku Juga Mengikuti Kegiatan Extrakulikuler Robotika 
+                            </p>
+                        </article>
+                    </td>
+                </tr>
+            </table>
+            <header style="text-align: left;">
+            <h1 align="center">RIWAYAT PENDIDIKAN</h1>
+            <table width="1400" border="0" cellspacing="0" cellpadding="3" align="center">
+                <tr align="center">
+                    <thead align="center" bgcolor="#66CC33">
+                        <td width="174" align="left"><b>SEKOLAH</b></td>
+                        <td width="300" align="left"><b>KETERANGAN</b></td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TK :</td>
+                            <td>TAMAN ANAK ANAK AL AMIEN</td>
+                        </tr>
+                        <tr>
+                            <td>SD :</td>
+                            <td>SEKOLAH DASAR BAKALAN KRAJAN 1</td>
+                        </tr>
+                        <tr>
+                            <td>SMP :</td>
+                            <td>SEKOLAH MENENGAH PERTAMA 17 MALANG</td>
+                        </tr>
+                        <tr>
+                            <td>SMK :</td>
+                            <td>SEKOLAH MENENGAH KEJURUAN 11 MALANG</td>
+                        </tr>
+                    </tbody>
+                </tr>
+            </table>
+        </header>
+
+        <h1 align="center">Skill</h1>
+       <table border="0" width="1400" cellspacing="0" cellpadding="3" align="center">
+           <thead>
+               <td align="center" bgcolor="#66CC33"><b>PEMROGRAMAN YANG DIPAHAMI</b></td>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>
+                    <p>JAVA</p>
+                    <div class="container">
+                        <div class="Skill JAVA">60%</div>
+                    </div>
+            
+                    <p>HTML</p>
+                    <div class="container">
+                        <div class="Skill HTML">50%</div>
+                    </div>
+            
+                    <p>CSS</p>
+                    <div class="container">
+                        <div class="Skill CSS">50%</div>
+                    </div>
+            
+                    <p>C/C++</p>
+                    <div class="container">
+                        <div class="Skill C">5%</div>
+                    </div>
+                   </td>
+               </tr>
+           </tbody>
+       </table>
+
+       <br><table border="1" width="500" cellspacing="0" cellpadding="3" align="center">
+           <thead align="center" bgcolor="#66CC33">
+               <td width="174" align="center"><b>CONTACT</b></td>
+           </thead>
+           <tbody align="center">
+               <tr>
+                   <td>
+                       <li> Telepon: ☎️ +62899 3352 618</li>
+                       <li>Email: 📩 miko35292@gmail.com</li>
+                       <li>Instagram: <img src="https://drive.google.com/uc?id=1sU5a9fvzveU6MInrpmPOpCvihuPYBxQF" alt="Instagram" width="20">dyahryfaathir</li>
+                    </td>
+               </tr>
+           </tbody>
+       </table>
+
+          <footer align="center">
+            <p style="font-size: 30px;"><u>RYFAATHIR RAHMAN 23 X RPL 2</u></p>
+          </footer>
+    </body>
+</html>
